@@ -1,1 +1,32 @@
-// TODO
+.postContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  line-height: 30px;
+}
+
+.postTitle {
+  font-size: 28px;
+  color: var(--light-gray);
+
+  margin: 25px 0px;
+}
+
+.postInfos {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+
+  svg {
+    margin-right: 5px;
+  }
+
+  p {
+    margin-left: 15px;
+  }
+}
+
+.postContent {
+
+}
